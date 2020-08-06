@@ -1,0 +1,26 @@
+.elementList{
+    display: flex;
+    width: 40%;
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 10px;
+    background-color: rgb(211, 208, 208);
+    padding: 10px;
+    margin: 10px;
+    
+}
+.elementList__photo{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+.elementList__about{
+    width: 80%;
+    padding: 10px 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+}
+.elementList__about__name,.elementList__about__status,.elementList__about__species{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300;
+}
