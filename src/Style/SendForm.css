@@ -3,6 +3,7 @@
     margin-bottom: 130px;
     display: flex;
     flex-direction: column;
+    
 
 }
 .form__button{
@@ -30,4 +31,12 @@
 .form__button:hover{
     background-color: rgb(218, 49, 114);
     letter-spacing: 10px;
+}
+
+@media screen and (max-width:800px)
+{
+    .form{
+        width: 200px;
+    }
+
 }

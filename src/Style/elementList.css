@@ -29,7 +29,10 @@
 @media screen and (max-width:800px)
 {
     .elementList{
-        width: 60%;
+        width: 90%;
+    }
+    .elementList__about{
+        font-size: 12px;
     }
 
 }
